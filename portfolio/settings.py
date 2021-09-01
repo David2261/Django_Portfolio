@@ -17,7 +17,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', ')boksskiy49!-7*svz45cb=pz3$b#d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = ['mighty-refuge-48423.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['bulatnasyrov.herokuapp.com','127.0.0.1']
 
 
 # Application definition
