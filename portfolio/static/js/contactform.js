@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
 		const str = $(this).serialize();
 		$.ajax({
 			type: 'POST',
-			url: 'https://bulatnasyrov.herokuapp.com/',
+			url: 'php/contact.php',
 			data: str,
 			success: function(msg) {
 				if (msg == 'OK') {
