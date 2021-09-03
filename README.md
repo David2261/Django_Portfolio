@@ -1,5 +1,5 @@
 Django 3.0 Python 3.7.5
-https://mighty-refuge-48423.herokuapp.com
+https://bulatnasyrov.herokuapp.com/
 
 Hi, my name is Bulat Nasyrov. I FULL STACK WEB DEVELOPER & TRADER.
 I create modern and creative Web Application & trade in the financial market
