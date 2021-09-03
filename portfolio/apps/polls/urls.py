@@ -3,5 +3,6 @@ from . import views
 
 app_name = 'polls'
 urlpatterns = [
-	path('', views.index),
+	path('', views.index, name="index"),
+	path('eng/', views.english, name="english"),
 ]
