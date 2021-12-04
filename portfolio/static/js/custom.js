@@ -154,10 +154,10 @@
 
 			else {
 					 $.ajax({
-							type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
-							url         : 'static/php/contact.php', // the url where we want to POST
-							data        : formData, // our data object
-							dataType    : 'json', // what type of data do we expect back from the server
+							type        : 'POST', // определяем тип HTTP который мы будем использовать  (POST for our form)
+							url         : 'static/php/contact.php', // url куда POST
+							data        : formData, // данные объекта
+							dataType    : 'json', // тип данных которые мы вернем от сервера
 							encode      : true,
 							success		: function(res){
 											var ret = $.parseJSON(JSON.stringify(res));

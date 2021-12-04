@@ -1,10 +1,10 @@
 <?php
 
-if(isset($_POST['message'])){
+if(isset($_POST['c_message'])){
 
-	$name = $_POST['name'];
-	$email = $_POST['email'];
-	$message = $_POST['message'];
+	$name = $_POST['c_name'];
+	$email = $_POST['c_email'];
+	$message = $_POST['c_message'];
     
 	
 	$to      = 'admiralgeneral2003@gmail.com';
@@ -20,10 +20,10 @@ if(isset($_POST['message'])){
 		$res['sendstatus'] = 'done';
 	
 		//Edit your message here
-		$res['message'] = 'Спасибо за комментарий!!!';
+		$res['c_message'] = 'Спасибо за комментарий!!!';
     }
 	else{
-		$res['message'] = 'Проблема с отправкой. Пожалуйста напишите мне на почту admiralgeneral2003@gmail.com';
+		$res['c_message'] = 'Проблема с отправкой. Пожалуйста напишите мне на почту admiralgeneral2003@gmail.com';
 	}
 	
 	
