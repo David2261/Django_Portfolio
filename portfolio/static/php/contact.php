@@ -7,7 +7,7 @@ if(isset($_POST['c_message'])){
 	$message = $_POST['c_message'];
     
 	
-	$to      = 'admiralgeneral2003@gmail.com';
+	$to      = 'eagle2020eye@yandex.com';
 	$subject = 'bulatnasyrov.herokuapp.com';
 
 	$headers = 'From: '. $email . "\r\n" .
@@ -20,10 +20,10 @@ if(isset($_POST['c_message'])){
 		$res['sendstatus'] = 'done';
 	
 		//Edit your message here
-		$res['c_message'] = 'Спасибо за комментарий!!!';
+		$res['c_message'] = 'Thank you, for !!!';
     }
 	else{
-		$res['c_message'] = 'Проблема с отправкой. Пожалуйста напишите мне на почту admiralgeneral2003@gmail.com';
+		$res['c_message'] = 'Trouble with send. Please write to my email - admiralgeneral2003@gmail.com';
 	}
 	
 	

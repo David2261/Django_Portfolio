@@ -524,7 +524,7 @@
 			<div class="row">
 
 				<div class="col-sm-6 col-sm-offset-3">
-					<form id="contact-form" role="form" action="post">
+					<form id="contact-form" role="form" action="{% static 'php/contact.php' %}" method="post">
 						<div class="ajax-hidden">
 						{% csrf_token %}
 							<div class="form-group wow fadeInUp">
