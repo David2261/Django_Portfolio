@@ -10,7 +10,11 @@ sys.path.insert(0, os.path.join(PROJECT_ROOT, 'apps'))
 SECRET_KEY = ')boksskiy49!-7*svz45cb=pz3$b#d)vdt-7&s_x(qyq7lggkg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+<<<<<<< HEAD
 DEBUG = True
+=======
+DEBUG = bool( os.environ.get('DJANGO_DEBUG', False) )
+>>>>>>> a1848d9665aa90c85224e94a7e978beba217b6e4
 
 ALLOWED_HOSTS = ['127.0.0.1']
 
