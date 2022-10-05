@@ -10,7 +10,7 @@ sys.path.insert(0, os.path.join(PROJECT_ROOT, 'apps'))
 SECRET_KEY = ')boksskiy49!-7*svz45cb=pz3$b#d)vdt-7&s_x(qyq7lggkg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool( os.environ.get('DJANGO_DEBUG', False) )
+DEBUG = False
 
 ALLOWED_HOSTS = ['bulatnasyrov.herokuapp.com']
 
